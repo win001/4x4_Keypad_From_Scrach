@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"4x4_keypad_from_scrach\startup_stm32f103xb.o"
+"4x4_keypad_from_scrach\main.o"
+"4x4_keypad_from_scrach\stm32f1xx_it.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_msp.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_gpio_ex.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_tim.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_tim_ex.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_uart.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_rcc.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_rcc_ex.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_gpio.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_dma.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_cortex.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_pwr.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_flash.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_flash_ex.o"
+"4x4_keypad_from_scrach\stm32f1xx_hal_exti.o"
+"4x4_keypad_from_scrach\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "4x4_Keypad_From_Scrach\4x4_Keypad_From_Scrach.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "4x4_Keypad_From_Scrach.map" -o 4x4_Keypad_From_Scrach\4x4_Keypad_From_Scrach.axf

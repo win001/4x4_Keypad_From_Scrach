@@ -1,0 +1,1 @@
+4x4_keypad_from_scrach\startup_stm32f103xb.o: startup_stm32f103xb.s
