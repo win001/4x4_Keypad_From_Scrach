@@ -5,7 +5,7 @@ By applyint the signal one by one on 4 row of 4x4 matrix keypad and Scaning the 
 After detecting which key is pressed using the USB keyboard descripter it sends the correspong value using USB API.
 
 Hardware and Software used to build this project -
-1. STM32F103 (or any MCU)
+1. STM32F103 
 2. 4x4 Matrix Keypad
 3. Jumper wires
 4. Keil IDE
